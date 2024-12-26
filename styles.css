@@ -1,0 +1,607 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: image/back.png; /* Dark background */
+    color: #fff;
+}
+
+/* Header and Navigation Styles */
+header {
+    background-color: #1e1e1e; /* Darker shade for the header */
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ff4081; /* Highlight color on hover */
+}
+
+/* Call-to-Action Button */
+.cta-button {
+    background-color: #ff4081; /* Highlighted color for CTA button */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e91e63; /* Slightly darker shade for hover effect */
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for the whole page */
+    color: #fff;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('your-background-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.hero .hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff4081; /* Highlight color */
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e91e63; /* Darker shade on hover */
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for the whole page */
+    color: #fff;
+}
+
+/* About Section */
+.about {
+    background-color: #1e1e1e; /* Dark background for the About section */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-bottom: 40px;
+}
+
+/* Skill Buttons Container */
+.skills-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Skill Buttons */
+.skill-btn {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #333;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/* Glowing Effect on Hover */
+.skill-btn:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 0 20px 3px rgba(255, 255, 255, 0.7);
+    color: #ff4081;
+}
+
+/* Specific Button Colors */
+.html-btn {
+    background-color: #e44d26; /* HTML5 button color */
+}
+
+.css-btn {
+    background-color: #2965f1; /* CSS3 button color */
+}
+
+.js-btn {
+    background-color: #f7df1e; /* JavaScript button color */
+}
+
+.react-btn {
+    background-color: #61dafb; /* React button color */
+}
+
+.responsive-btn {
+    background-color: #00bcd4; /* Responsive Design button color */
+}
+
+/* Glowing Effect on Hover for Each Button */
+.skill-btn:hover {
+    box-shadow: 0 0 20px 3px rgba(255, 255, 255, 0.7); /* Glowing effect */
+    color: #ff4081; /* Glowing text color */
+}
+
+/* Container to center content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for the whole page */
+    color: #fff;
+}
+
+/* Projects Section Styles */
+.projects {
+    background-color: #1e1e1e; /* Dark background for the projects section */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.project {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff4081; /* Highlight color */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e91e63; /* Darker shade on hover */
+}
+
+/* Hover Effects */
+.project:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.project:hover img {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for the whole page */
+    color: #fff;
+}
+
+/* Skills Section Styles */
+.skills {
+    background-color: #1e1e1e; /* Dark background for the skills section */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Skill Card */
+.skill {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skill img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.skill h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 1rem;
+    color: #bbb;
+}
+
+.skill:hover {
+    background-color: #3a3a3a; /* Darker shade on hover */
+    transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.skill:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Container to center content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for the whole page */
+    color: #fff;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    background-color: #1e1e1e; /* Dark background for the testimonials section */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+/* Testimonials Slider */
+.testimonials-slider {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Testimonial Card */
+.testimonial {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.testimonial .quote {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.testimonial h3 {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.testimonial p {
+    font-size: 1rem;
+    color: #aaa;
+}
+
+.testimonial:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+}
+
+/* Container to center content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for the whole page */
+    color: #fff;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1e1e1e; /* Dark background for the footer */
+    color: #bbb;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Footer Content */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ff4081; /* Highlight color on hover */
+}
+
+.contact-info {
+    font-size: 1rem;
+}
+
+.contact-info a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #ff4081; /* Highlight color on hover */
+}
+
+/* Copyright Section */
+.copyright {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 20px;
+}
+
+.copyright p {
+    margin: 0;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for the whole page */
+    color: #fff;
+}
+
+/* Call-to-Action Section */
+.cta {
+    background-color: #2c2c2c; /* Dark background for the CTA section */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2.8rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ff4081; /* Button background color */
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #e0356b; /* Button hover color */
+    transform: scale(1.05); /* Slight grow effect on hover */
+}
+
+/* Container to center content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
